@@ -1,0 +1,32 @@
+{
+  "name": "bootlicker-bot",
+  "version": "1.0.0",
+  "description": "Minimalistic and easy to setup VK bot boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "dev": "npm run build && node dist/index.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamShakusky/vk-botlerplate.git"
+  },
+  "author": "SamShakusky",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-vk-bot-api": "^3.3.4",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  }
+}
