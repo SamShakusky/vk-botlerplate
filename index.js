@@ -1,10 +1,10 @@
 import express from 'express';
-// import bodyParser from 'body-parser';
+import bodyParser from 'body-parser';
 import VkBot from 'node-vk-bot-api';
 
 export const app = express();
 
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
   res.send('Hi, I\'m a bot. Beep boop...');
