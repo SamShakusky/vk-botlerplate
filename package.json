@@ -2,10 +2,10 @@
   "name": "vk-botlerplate",
   "version": "1.0.0",
   "description": "Minimalistic and easy to setup VK bot boilerplate",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "babel index.js -d dist",
-    "dev": "npm run build && node dist/index.js",
+    "build": "parcel build index.js",
+    "dev": "parcel build index.js && node dist/index.js",
     "start": "node dist/index.js"
   },
   "repository": {
@@ -20,9 +20,7 @@
     "node-vk-bot-api": "^3.3.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.4",
-    "@babel/core": "^7.10.4",
-    "@babel/preset-env": "^7.10.4"
+    "parcel": "^2.0.0-beta.1"
   },
   "engines": {
     "node": "14.x",
