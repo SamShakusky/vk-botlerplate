@@ -1,7 +1,7 @@
 # VK Bot Boilerplate (Botlerplate 🙃)
-Minimalistic and easy to setup VK Bot boilerplate. Using express, babel (es6 modules and async-await) and [node-vk-bot-api](/node-vk-bot-api/node-vk-bot-api).
+Minimalistic and easy to setup VK Bot boilerplate. Using node (express), babel (es6 modules and async-await) and [node-vk-bot-api](/node-vk-bot-api/node-vk-bot-api).
 
-Минималистичный и простой в настройке шаблон для ВК-бота. Включает в себя express, babel (для es6 модулей и async-await) и [node-vk-bot-api](/node-vk-bot-api/node-vk-bot-api).
+Минималистичный и простой в настройке шаблон для ВК-бота. Включает в себя node (express), babel (для es6 модулей и async-await) и [node-vk-bot-api](/node-vk-bot-api/node-vk-bot-api).
 
 ## Быстрый старт
 
@@ -26,8 +26,8 @@ Minimalistic and easy to setup VK Bot boilerplate. Using express, babel (es6 mod
 Теперь все события, отмеченные во вкладке *Типы событий* будут приходить на ваш сервер. Осталось включить сообщения в настройках сообщества и разрешить добавлять сообщество в беседы. После этого можно написать сообществу и получить ответ от бота.
 
 ## Полезные ссылки
-[Документация VK API](https://vk.com/dev/first_guide)
-[Документация node-vk-bot-api](/node-vk-bot-api/node-vk-bot-api)
+* [Документация VK API](https://vk.com/dev/first_guide)
+* [Документация node-vk-bot-api](/node-vk-bot-api/node-vk-bot-api)
 
 ## Дальнейшие шаги
 1.  Поставьте звездочку этому репозиторию.

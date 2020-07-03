@@ -1,5 +1,5 @@
 {
-  "name": "bootlicker-bot",
+  "name": "vk-botlerplate",
   "version": "1.0.0",
   "description": "Minimalistic and easy to setup VK bot boilerplate",
   "main": "index.js",
